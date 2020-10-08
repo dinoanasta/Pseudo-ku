@@ -1,145 +1,236 @@
 import java.util.*;
+import java.io.*;
 
-public class Program{
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+public class Program {
+	public static void main(String[] args) throws IOException {
+		// Scanner in = new Scanner(System.in);
 
-        int [][] board = new int[9][9];
+		// int[][] board = new int[9][9];
+		// int[] counter = { 0, 0 };
 
-        for(int i=0; i<9; ++i){
-            String [] line = in.nextLine().split(" ");
-            for(int j=0; j<9; j++){
-                board[i][j] = Integer.parseInt(line[j]);
-            }
-        }
+		// for (int i = 0; i < 9; ++i) {
+		// 	String[] line = in.nextLine().split(" ");
+		// 	for (int j = 0; j < 9; j++) {
+		// 		board[i][j] = Integer.parseInt(line[j]);
+		// 	}
+		// }
 
-        int N=9;
+		// // start timer
+		// long startTime = System.nanoTime();
 
-        if (solveSudoku(board, N)) { 
-			printForSubmission(board, N); 
-		} 
-		else { 
-			System.out.println("No solution"); 
-		} 
+		// // solve
+		// if (solveSudoku(board, counter)) {
+		// 	printLooksNxa(board);
+		// } else {
+		// 	System.out.println("No solution");
+		// }
 
-        in.close();
-    }
+		// // end timer
+		// long endTime = System.nanoTime();
+		// long duration = (endTime - startTime) / 1000;
+		// String time = Long.toString(duration) + " microseconds";
+		// System.out.println(time);
 
-    public static boolean isSafe(int[][] board,	int row, int col, int num)	{ 
-		// row has the unique (row-clash) 
-		for (int d = 0; d < board.length; d++) { 
-			// if the number we are trying to 
-			// place is already present in 
-			// that row, return false; 
-			if (board[row][d] == num) { 
-				return false; 
-			} 
-		} 
+		// // comparisons
+		// String comparisons = Integer.toString(counter[0]) + " comparisons";
+		// String changes = Integer.toString(counter[1]) + " changes";
+		// System.out.println(comparisons);
+		// System.out.println(changes);
 
-		// column has the unique numbers (column-clash) 
-		for (int r = 0; r < board.length; r++) { 
-			// if the number we are trying to 
-			// place is already present in 
-			// that column, return false; 
+		// FileWriter output1 = new FileWriter("output1.csv");
+		// output1.append("difficulty");
+		// output1.append(",");
+		// output1.append("time");
+		// output1.append(",");
+		// output1.append("comparisons");
+		// output1.append(",");
+		// output1.append("changes");
+		// output1.append(",");
+		// output1.append("\n");
 
-			if (board[r][col] == num) { 
-				return false; 
-			} 
-		} 
+		// /// ADD INPUT SHIT HERE;
+		// output1.append(difficulty + "," + time + "," + comparisons + "," + changes);
+		// output1.append("\n");
 
-		// corresponding square has 
-		// unique number (box-clash) 
-		int sqrt = (int)Math.sqrt(board.length); 
-		int boxRowStart = row - row % sqrt; 
-		int boxColStart = col - col % sqrt; 
+		// output1.flush();
+		// output1.close();
 
-		for (int r = boxRowStart; 
-			r < boxRowStart + sqrt; r++) { 
-			for (int d = boxColStart; 
-				d < boxColStart + sqrt; d++) { 
-				if (board[r][d] == num) { 
-					return false; 
-				} 
-			} 
-		} 
+		// in.close();
 
-		// if there is no clash, it's safe 
-		return true; 
-	} 
 
-	public static boolean solveSudoku( int[][] board, int n) { 
-		int row = -1; 
-		int col = -1; 
-		boolean isEmpty = true; 
-		for (int i = 0; i < n; i++) { 
-			for (int j = 0; j < n; j++) { 
-				if (board[i][j] == 0) { 
-					row = i; 
-					col = j; 
+		inputForSubmission();
+	}
 
-					// we still have some remaining 
-					// missing values in Sudoku 
-					isEmpty = false; 
-					break; 
-				} 
-			} 
-			if (!isEmpty) { 
-				break; 
-			} 
-		} 
+	public static boolean isSafe(int[][] board, int row, int col, int num, int[] counter) {
+		// Check row
+		for (int c = 0; c < 9; c++) {
+			counter[0]++;
+			if (board[row][c] == num) { // Number already exists in row
+				return false;
+			}
+		}
 
-		// no empty space left 
-		if (isEmpty) { 
-			return true; 
-		} 
+		// Check column
+		for (int r = 0; r < 9; r++) {
+			counter[0]++;
+			if (board[r][col] == num) { // Number already exists in column
+				return false;
+			}
+		}
 
-		// else for each-row backtrack 
-		for (int num = 1; num <= n; num++) { 
-			if (isSafe(board, row, col, num)) { 
-				board[row][col] = num; 
-				if (solveSudoku(board, n)) { 
-					// print(board, n); 
-					return true; 
-				} 
-				else { 
-					// replace it 
-					board[row][col] = 0; 
-				} 
-			} 
-		} 
-		return false; 
-	} 
+		// Check sub grid
+		int sqrt = (int) Math.sqrt(board.length);
+		int boxRowStart = row - row % sqrt;
+		int boxColStart = col - col % sqrt;
 
-	public static void printForSubmission(int[][] board, int N) { 
-		for (int row = 0; row < N; row++) { 
-			for (int column = 0; column < N; column++) { 
-				System.out.print(board[row][column]); 
-                System.out.print(" "); 
+		for (int r = boxRowStart; r < boxRowStart + sqrt; r++) {
+			for (int c = boxColStart; c < boxColStart + sqrt; c++) {
+				counter[0]++;
+				if (board[r][c] == num) { // Number already exists in sub grid
+					return false;
+				}
+			}
+		}
 
-			} 
-			System.out.print("\n"); 
-		} 
-	} 
+		// No clash - this number is safe in position board[row][col]
+		return true;
+	}
 
-	public static void printLooksNxa(int[][] board, int N) { 
-        System.out.println("\n"); 
-        System.out.println("----- Solution: -----"); 
+	public static boolean solveSudoku(int[][] board, int[] counter) {
+		int row = -1;
+		int col = -1;
+		boolean isSolved = true;
+		for (int i = 0; i < 9; i++) {
+			for (int j = 0; j < 9; j++) {
+				if (board[i][j] == 0) { // Some values are still not filled in
+					row = i;
+					col = j;
 
-		for (int row = 0; row < N; row++) { 
-			for (int column = 0; column < N; column++) { 
-				System.out.print(board[row][column]); 
-                System.out.print(" "); 
+					isSolved = false;
+					break;
+				}
+			}
+			if (!isSolved) {
+				break;
+			}
+		}
 
-                if ((column + 1) % (int)Math.sqrt(N) == 0) { 
-                    System.out.print(" ");
-                } 
+		if (isSolved) { // Sudoku is solved
+			return true;
+		}
 
-			} 
-			System.out.print("\n"); 
+		// If Sudoku is not yet solved, backtrack for each row
+		for (int num = 1; num <= 9; num++) {
+			if (isSafe(board, row, col, num, counter)) {
+				counter[1]++;
+				board[row][col] = num;
+				if (solveSudoku(board, counter)) {
+					return true;
+				} else {
+					board[row][col] = 0;
+				}
+			}
+		}
+		return false;
+	}
 
-			if ((row + 1) % (int)Math.sqrt(N) == 0) { 
-				System.out.print("\n"); 
-			} 
-		} 
-	} 
+	public static void printForSubmission(int[][] board) {
+		for (int row = 0; row < 9; row++) {
+			for (int column = 0; column < 9; column++) {
+				System.out.print(board[row][column]);
+				System.out.print(" ");
+
+			}
+			System.out.print("\n");
+		}
+	}
+
+	public static void printLooksNxa(int[][] board) {
+		System.out.println("\n");
+		System.out.println("----- Solution: -----");
+
+		for (int row = 0; row < 9; row++) {
+			for (int column = 0; column < 9; column++) {
+				System.out.print(board[row][column]);
+				System.out.print(" ");
+
+				if ((column + 1) % 3 == 0) {
+					System.out.print(" ");
+				}
+
+			}
+			System.out.print("\n");
+
+			if ((row + 1) % 3 == 0) {
+				System.out.print("\n");
+			}
+		}
+	}
+
+	public static void inputForSubmission()  throws IOException {
+		// open file
+		try {
+			FileWriter output1 = new FileWriter("output1.csv");
+			output1.append("difficulty");
+			output1.append(",");
+			output1.append("time");
+			output1.append(",");
+			output1.append("comparisons");
+			output1.append(",");
+			output1.append("changes");
+			output1.append(",");
+			output1.append("\n");
+	
+
+			File myObj = new File("PUZZIES.txt");
+			Scanner myReader = new Scanner(myObj);
+			while (myReader.hasNextLine()) {
+				// Take in puzzles
+				String difc = myReader.nextLine();
+				int[] counter = { 0, 0 };
+				int[][] board = new int[9][9];
+
+				for (int i = 0; i < 9; ++i) {
+					String[] line = myReader.nextLine().split(" ");
+					for (int j = 0; j < 9; j++) {
+						board[i][j] = Integer.parseInt(line[j]);
+					}
+				}
+
+				// start timer
+				long startTime = System.nanoTime();
+
+				// solve
+				if (solveSudoku(board, counter)) {
+					printLooksNxa(board);
+				} else {
+					System.out.println("No solution");
+				}
+
+				System.out.println(difc);
+
+				// end timer
+				long endTime = System.nanoTime();
+				long duration = (endTime - startTime) / 1000;
+				String time = Long.toString(duration) + " microseconds";
+				System.out.println(time);
+
+				// comparisons
+				String comparisons = Integer.toString(counter[0]) + " comparisons";
+				String changes = Integer.toString(counter[1]) + " changes";
+				System.out.println(comparisons);
+				System.out.println(changes);
+
+				/// ADD INPUT SHIT HERE;
+				output1.append(difc + "," + time + "," + comparisons + "," + changes);
+				output1.append("\n");
+			}
+			output1.flush();
+			output1.close();
+			myReader.close();
+		} catch (FileNotFoundException e) {
+			System.out.println("An error occurred.");
+			e.printStackTrace();
+		}
+	}
 }

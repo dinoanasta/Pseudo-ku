@@ -1,0 +1,5 @@
+difficulty,time,comparisons,changes,
+E,2805 microseconds,11086 comparisons,145 changes
+M,3981 microseconds,209887 comparisons,2654 changes
+H,95909 microseconds,40541808 comparisons,478902 changes
+X,7201 microseconds,4061082 comparisons,49558 changes
