@@ -2,66 +2,18 @@ import java.util.*;
 import java.io.*;
 
 public class Program {
+	static int[] counter = { 0, 0 };
+
 	public static void main(String[] args) throws IOException {
-		// Scanner in = new Scanner(System.in);
 
-		// int[][] board = new int[9][9];
-		// int[] counter = { 0, 0 };
+		//Run for submission purposes
+		runForSubmission();
 
-		// for (int i = 0; i < 9; ++i) {
-		// 	String[] line = in.nextLine().split(" ");
-		// 	for (int j = 0; j < 9; j++) {
-		// 		board[i][j] = Integer.parseInt(line[j]);
-		// 	}
-		// }
-
-		// // start timer
-		// long startTime = System.nanoTime();
-
-		// // solve
-		// if (solveSudoku(board, counter)) {
-		// 	printLooksNxa(board);
-		// } else {
-		// 	System.out.println("No solution");
-		// }
-
-		// // end timer
-		// long endTime = System.nanoTime();
-		// long duration = (endTime - startTime) / 1000;
-		// String time = Long.toString(duration) + " microseconds";
-		// System.out.println(time);
-
-		// // comparisons
-		// String comparisons = Integer.toString(counter[0]) + " comparisons";
-		// String changes = Integer.toString(counter[1]) + " changes";
-		// System.out.println(comparisons);
-		// System.out.println(changes);
-
-		// FileWriter output1 = new FileWriter("output1.csv");
-		// output1.append("difficulty");
-		// output1.append(",");
-		// output1.append("time");
-		// output1.append(",");
-		// output1.append("comparisons");
-		// output1.append(",");
-		// output1.append("changes");
-		// output1.append(",");
-		// output1.append("\n");
-
-		// /// ADD INPUT SHIT HERE;
-		// output1.append(difficulty + "," + time + "," + comparisons + "," + changes);
-		// output1.append("\n");
-
-		// output1.flush();
-		// output1.close();
-
-		// in.close();
-
-
-		inputForSubmission();
+		//Run for testing purposes
+		runForTesting();
 	}
 
-	public static boolean isSafe(int[][] board, int row, int col, int num, int[] counter) {
+	public static boolean isSafe(int[][] board, int row, int col, int num) {
 		// Check row
 		for (int c = 0; c < 9; c++) {
 			counter[0]++;
@@ -96,15 +48,15 @@ public class Program {
 		return true;
 	}
 
-	public static boolean solveSudoku(int[][] board, int[] counter) {
+	public static boolean solveSudoku(int[][] board) {
 		int row = -1;
 		int col = -1;
 		boolean isSolved = true;
-		for (int i = 0; i < 9; i++) {
-			for (int j = 0; j < 9; j++) {
-				if (board[i][j] == 0) { // Some values are still not filled in
-					row = i;
-					col = j;
+		for (int r = 0; r < 9; r++) {
+			for (int c = 0; c < 9; c++) {
+				if (board[r][c] == 0) { // Some values are still not filled in
+					row = r;
+					col = c;
 
 					isSolved = false;
 					break;
@@ -121,10 +73,10 @@ public class Program {
 
 		// If Sudoku is not yet solved, backtrack for each row
 		for (int num = 1; num <= 9; num++) {
-			if (isSafe(board, row, col, num, counter)) {
+			if (isSafe(board, row, col, num)) {
 				counter[1]++;
 				board[row][col] = num;
-				if (solveSudoku(board, counter)) {
+				if (solveSudoku(board)) {
 					return true;
 				} else {
 					board[row][col] = 0;
@@ -145,10 +97,7 @@ public class Program {
 		}
 	}
 
-	public static void printLooksNxa(int[][] board) {
-		System.out.println("\n");
-		System.out.println("----- Solution: -----");
-
+	public static void printForTesting(int[][] board) {
 		for (int row = 0; row < 9; row++) {
 			for (int column = 0; column < 9; column++) {
 				System.out.print(board[row][column]);
@@ -167,27 +116,47 @@ public class Program {
 		}
 	}
 
-	public static void inputForSubmission()  throws IOException {
-		// open file
-		try {
-			FileWriter output1 = new FileWriter("output1.csv");
-			output1.append("difficulty");
-			output1.append(",");
-			output1.append("time");
-			output1.append(",");
-			output1.append("comparisons");
-			output1.append(",");
-			output1.append("changes");
-			output1.append(",");
-			output1.append("\n");
-	
+	public static void runForSubmission()  throws IOException {
+		Scanner in = new Scanner(System.in);
 
+		int[][] board = new int[9][9];
+
+		for (int i = 0; i < 9; ++i) {
+			String[] line = in.nextLine().split(" ");
+			for (int j = 0; j < 9; j++) {
+				board[i][j] = Integer.parseInt(line[j]);
+			}
+		}
+
+		//Solve
+		if (solveSudoku(board)) {
+			printForSubmission(board);
+		} else {
+			System.out.println("No solution");
+		}
+		in.close();
+	}
+
+	public static void runForTesting()  throws IOException {
+		try {
+			//Create new .csv file
+			FileWriter outputfile = new FileWriter("output2.csv");
+			outputfile.append("difficulty");
+			outputfile.append(",");
+			outputfile.append("time");
+			outputfile.append(",");
+			outputfile.append("comparisons");
+			outputfile.append(",");
+			outputfile.append("changes");
+			outputfile.append(",");
+			outputfile.append("\n");
+	
+			//Open file
 			File myObj = new File("PUZZIES.txt");
 			Scanner myReader = new Scanner(myObj);
 			while (myReader.hasNextLine()) {
 				// Take in puzzles
 				String difc = myReader.nextLine();
-				int[] counter = { 0, 0 };
 				int[][] board = new int[9][9];
 
 				for (int i = 0; i < 9; ++i) {
@@ -196,37 +165,42 @@ public class Program {
 						board[i][j] = Integer.parseInt(line[j]);
 					}
 				}
+				
+				//Print out original puzzle
+				System.out.println("----- PUZZLE: -----");
+				printForTesting(board);
 
-				// start timer
+				//Start timer
 				long startTime = System.nanoTime();
 
-				// solve
-				if (solveSudoku(board, counter)) {
-					printLooksNxa(board);
+				//Solve and print solution, or print "No solution"
+				if (solveSudoku(board)) {
+					System.out.println("----- SOLUTION: -----");
+					printForTesting(board);
 				} else {
 					System.out.println("No solution");
 				}
 
-				System.out.println(difc);
-
-				// end timer
+				//End timer
 				long endTime = System.nanoTime();
 				long duration = (endTime - startTime) / 1000;
-				String time = Long.toString(duration) + " microseconds";
-				System.out.println(time);
 
-				// comparisons
-				String comparisons = Integer.toString(counter[0]) + " comparisons";
-				String changes = Integer.toString(counter[1]) + " changes";
-				System.out.println(comparisons);
-				System.out.println(changes);
+				int comparisons = counter[0];
+				int changes = counter[1];
 
-				/// ADD INPUT SHIT HERE;
-				output1.append(difc + "," + time + "," + comparisons + "," + changes);
-				output1.append("\n");
+				System.out.println("Difficulty: " + difc);
+				System.out.println(Long.toString(duration) + " microseconds");
+				System.out.println(Integer.toString(comparisons) + " comparisons");
+				System.out.println(Integer.toString(changes) + " changes");
+				System.out.println("\n");
+				System.out.println("=======================================================");
+				System.out.println("\n");
+
+				outputfile.append(difc + "," + duration + "," + comparisons + "," + changes);
+				outputfile.append("\n");
 			}
-			output1.flush();
-			output1.close();
+			outputfile.flush();
+			outputfile.close();
 			myReader.close();
 		} catch (FileNotFoundException e) {
 			System.out.println("An error occurred.");
