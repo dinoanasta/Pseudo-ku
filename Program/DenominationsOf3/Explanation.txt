@@ -1,0 +1,1 @@
+These results and plots were achieved by running the algorithm on the same puzzle, with the number of clues decreasing in denominations of 3 rom 81 to 54.

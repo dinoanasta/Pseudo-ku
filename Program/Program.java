@@ -7,7 +7,7 @@ public class Program {
 	public static void main(String[] args) throws IOException {
 
 		//Run for submission purposes
-		runForSubmission();
+		// runForSubmission();
 
 		//Run for testing purposes
 		runForTesting();
@@ -140,23 +140,30 @@ public class Program {
 	public static void runForTesting()  throws IOException {
 		try {
 			//Create new .csv file
-			FileWriter outputfile = new FileWriter("output2.csv");
-			outputfile.append("difficulty");
-			outputfile.append(",");
-			outputfile.append("time");
-			outputfile.append(",");
-			outputfile.append("comparisons");
-			outputfile.append(",");
-			outputfile.append("changes");
-			outputfile.append(",");
-			outputfile.append("\n");
+			FileWriter timeOutput = new FileWriter("bull1.csv");
+			timeOutput.append("NumClues");
+			timeOutput.append(",");
+			timeOutput.append("Time");
+			timeOutput.append("\n");
+
+			FileWriter comparisonsOutput = new FileWriter("bull2.csv");
+			comparisonsOutput.append("NumClues");
+			comparisonsOutput.append(",");
+			comparisonsOutput.append("Comparisons");
+			comparisonsOutput.append("\n");
+
+			FileWriter changesOutput = new FileWriter("bull3.csv");
+			changesOutput.append("NumClues");
+			changesOutput.append(",");
+			changesOutput.append("Changes");
+			changesOutput.append("\n");
 	
 			//Open file
-			File myObj = new File("PUZZIES.txt");
+			File myObj = new File("DifficultyLevels/PuzzlesNumCluesLabel.txt");
 			Scanner myReader = new Scanner(myObj);
 			while (myReader.hasNextLine()) {
 				// Take in puzzles
-				String difc = myReader.nextLine();
+				int difc = Integer.parseInt(myReader.nextLine());
 				int[][] board = new int[9][9];
 
 				for (int i = 0; i < 9; ++i) {
@@ -196,11 +203,28 @@ public class Program {
 				System.out.println("=======================================================");
 				System.out.println("\n");
 
-				outputfile.append(difc + "," + duration + "," + comparisons + "," + changes);
-				outputfile.append("\n");
+				timeOutput.append(difc + "," + duration);
+				timeOutput.append("\n");
+
+
+				comparisonsOutput.append(difc + "," + comparisons);
+				comparisonsOutput.append("\n");
+
+
+				changesOutput.append(difc + "," + changes);
+				changesOutput.append("\n");
+
+
 			}
-			outputfile.flush();
-			outputfile.close();
+			timeOutput.flush();
+			timeOutput.close();
+
+			comparisonsOutput.flush();
+			comparisonsOutput.close();
+
+			changesOutput.flush();
+			changesOutput.close();
+
 			myReader.close();
 		} catch (FileNotFoundException e) {
 			System.out.println("An error occurred.");
