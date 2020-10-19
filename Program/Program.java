@@ -116,7 +116,7 @@ public class Program {
 		}
 	}
 
-	public static void removeCluesOrdered(int[][] board, int numClues) {
+	public static int[][] removeCluesOrdered(int[][] board, int numClues) {
 			for (int row = 0; row < 9; row++) {
 				for (int column = 0; column < 9; column++) {
 					if(board[row][column]!=0){
@@ -131,10 +131,12 @@ public class Program {
 						break;
 					}
 			}
+
+			return board;
 	}
 	
 
-	public static void removeCluesRandom(int[][] board, int numClues) {
+	public static int [][] removeCluesRandom(int[][] board, int numClues) {
 		while(numClues>0){
 			Random r = new Random();
 			int row = r.nextInt(9);
@@ -144,6 +146,8 @@ public class Program {
 				numClues--;
 			}
 		}
+
+		return board;
 	}
 
 
@@ -299,15 +303,29 @@ public class Program {
 						board[i][j] = Integer.parseInt(line[j]);
 					}
 				}
+
+				int[][] newBoard = board.clone();
+
 				
 				for(int g=0; g<=81; g++){
+
+
+					if(g==0){
+						newBoard = board.clone();
+					}else{
+						newBoard = removeCluesRandom(newBoard,1).clone();
+					}
+
+					// if(g==64 || g == 67){
+					// 	continue;
+					// }
 
 					//reset counter
 					counter[0]=0;
 					counter[1]=0;
 
 					//remove clue
-					removeCluesRandom(board,g);
+					
 
 					//Print out original puzzle
 					System.out.println("----- PUZZLE: -----");
