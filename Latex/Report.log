@@ -1,169 +1,50 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.22)  22 OCT 2020 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.7)  22 OCT 2020 22:55
 entering extended mode
-**./Report.tex
-(Report.tex
-LaTeX2e <2020-10-01> patch level 1
-L3 programming layer <2020-10-05> xparse <2020-03-03>
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.tex
+(/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count175
-\c@section=\count176
-\c@subsection=\count177
-\c@subsubsection=\count178
-\c@paragraph=\count179
-\c@subparagraph=\count180
-\c@figure=\count181
-\c@table=\count182
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen138
-)
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+\bibindent=\dimen134
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
-)
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+\KV@toks@=\toks14
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
-.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
-
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.d
-ef
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen139
-\Gin@req@width=\dimen140
-)
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.s
-ty
-Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
-
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.te
-x
-\XKV@toks=\toks16
-\XKV@tempa@toks=\toks17
-)
-\XKV@depth=\count183
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
--ends (calc, etex, pgfmath)
-)
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.st
-y
-Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
-
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox
-.sty
-Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box47
-)
-\tc@llx=\dimen141
-\tc@lly=\dimen142
-\tc@urx=\dimen143
-\tc@ury=\dimen144
-Package trimclip Info: Using driver 'tc-pdftex.def'.
-
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.d
-ef
-File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
-))
-\adjbox@Width=\dimen145
-\adjbox@Height=\dimen146
-\adjbox@Depth=\dimen147
-\adjbox@Totalheight=\dimen148
-\adjbox@pwidth=\dimen149
-\adjbox@pheight=\dimen150
-\adjbox@pdepth=\dimen151
-\adjbox@ptotalheight=\dimen152
-
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.s
-ty
-Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count184
-)
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box48
-\sift@deathcycles=\count185
-\@vwid@loff=\dimen153
-\@vwid@roff=\dimen154
-)) (C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2020/10/06 3.50 The Babel package
-
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
-File: babel.def 2020/10/06 3.50 Babel common definitions
-\babel@savecnt=\count186
-\U@D=\dimen155
-\l@babelnohyphens=\language79
-
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
-\bbl@readstream=\read2
-)
-\bbl@dirlevel=\count187
-
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-Package babel Info: You haven't specified a language. I'll use 'nil'
-(babel)             as the main language. Reported on input line 1153.
-
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/generic/babel\nil.ldf
-Language: nil 2020/10/06 3.50 Nil language
-\l@nil=\language80
-))
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.s
-ty
-Package: blindtext 2012/01/06 V2.0 blindtext-Package
- (C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
-\c@blindtext=\count188
-\c@Blindtext=\count189
-\c@blind@countparstart=\count190
-\blind@countxx=\count191
-\blindtext@numBlindtext=\count192
-\blind@countyy=\count193
-\c@blindlist=\count194
-\c@blindlistlevel=\count195
-\c@blindlist@level=\count196
-\blind@listitem=\count197
-\c@blind@listcount=\count198
-\c@blind@levelcount=\count199
-\blind@mathformula=\count266
-\blind@Mathformula=\count267
-\c@blind@randomcount=\count268
-\c@blind@randommax=\count269
-\c@blind@pangramcount=\count270
-\c@blind@pangrammax=\count271
-)
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
-dftex.def
-File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count272
-\l__pdf_internal_box=\box49
-) (Report.aux)
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count175
+\l__pdf_internal_box=\box45
+) (/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.aux)
 \openout1 = `Report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -180,28 +61,25 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
-
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
-mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count273
-\scratchdimen=\dimen156
-\scratchbox=\box50
-\nofMPsegments=\count274
-\nofMParguments=\count275
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count276
-\MPscratchDim=\dimen157
-\MPnumerator=\count277
-\makeMPintoPDFobject=\count278
-\everyMPtoPDFconversion=\toks19
-)
-(C:\Users\Philani\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
--base.sty
+\scratchcounter=\count176
+\scratchdimen=\dimen137
+\scratchbox=\box46
+\nofMPsegments=\count177
+\nofMParguments=\count178
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count179
+\MPscratchDim=\dimen138
+\MPnumerator=\count180
+\makeMPintoPDFobject=\count181
+\everyMPtoPDFconversion=\toks16
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -210,12 +88,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 15.
  [1
 
-{C:/Users/Philani/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-(Report.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 4.
+(Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 4.
+(Font)              <5> on input line 3.
 )
 \tf@toc=\write3
 \openout3 = `Report.toc'.
@@ -236,32 +113,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--27
  []
 
 
-Overfull \hbox (0.66737pt too wide) in paragraph at lines 32--34
-\OT1/cmr/m/n/10 Our initial assumption is that the Backtracking Algorithm will 
-have the following
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  []
-
-
-LaTeX Warning: Citation `GeeksforGeeks' on page 2 undefined on input line 36.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--38
 
  []
 
-
-LaTeX Warning: Citation `GeeksforGeeks' on page 2 undefined on input line 40.
-
 [2]
-
-LaTeX Warning: Citation `Sudoku:2020' on page 3 undefined on input line 64.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 60--66
 
  []
@@ -282,75 +143,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--66
  []
 
 [3]
-<Images//iteration1.png, id=27, 111.41624pt x 121.20282pt>
-File: Images//iteration1.png Graphic file (type png)
-<use Images//iteration1.png>
-Package pdftex.def Info: Images//iteration1.png  used on input line 70.
+<Images/iteration1.png, id=28, 111.41624pt x 121.20282pt>
+File: Images/iteration1.png Graphic file (type png)
+<use Images/iteration1.png>
+Package pdftex.def Info: Images/iteration1.png  used on input line 70.
 (pdftex.def)             Requested size: 110.40253pt x 120.10027pt.
-<Images//iteration2.png, id=28, 106.89937pt x 119.69719pt>
-File: Images//iteration2.png Graphic file (type png)
-<use Images//iteration2.png>
-Package pdftex.def Info: Images//iteration2.png  used on input line 74.
+<Images/iteration2.png, id=29, 106.89937pt x 119.69719pt>
+File: Images/iteration2.png Graphic file (type png)
+<use Images/iteration2.png>
+Package pdftex.def Info: Images/iteration2.png  used on input line 74.
 (pdftex.def)             Requested size: 110.40253pt x 123.62004pt.
-<Images//iteration3.png, id=29, 109.1578pt x 121.20282pt>
-File: Images//iteration3.png Graphic file (type png)
-<use Images//iteration3.png>
-Package pdftex.def Info: Images//iteration3.png  used on input line 78.
+<Images/iteration3.png, id=30, 109.1578pt x 121.20282pt>
+File: Images/iteration3.png Graphic file (type png)
+<use Images/iteration3.png>
+Package pdftex.def Info: Images/iteration3.png  used on input line 78.
 (pdftex.def)             Requested size: 110.40253pt x 122.58586pt.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.83 A
-      s you can see, the puzzle in the first iteration has no white spaces a...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[4 <./Images//iteration1.png> <./Images//iteration2.png> <./Images//iteration3.
-png>]
-<Images//COMP.pdf, id=33, 462.52798pt x 346.89601pt>
-File: Images//COMP.pdf Graphic file (type pdf)
-<use Images//COMP.pdf>
-Package pdftex.def Info: Images//COMP.pdf  used on input line 99.
+ [4 </home/dinoanasta/Documents/Pseudo-ku/Latex/Images/iteration1.png> </home/dinoanasta/Documents/Pseudo-ku/Latex/Images/iteration2.png> </home/dinoanasta/Documents/Pseudo-ku/Latex/Images/iteration3.png>]
+<Images/COMP.pdf, id=34, 462.52798pt x 346.89601pt>
+File: Images/COMP.pdf Graphic file (type pdf)
+<use Images/COMP.pdf>
+Package pdftex.def Info: Images/COMP.pdf  used on input line 92.
 (pdftex.def)             Requested size: 345.0pt x 258.76337pt.
- [5 <./Images//COMP.pdf>] (Report.bbl) [6] (Report.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ [5 </home/dinoanasta/Documents/Pseudo-ku/Latex/Images/COMP.pdf>] (/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.bbl) [6] (/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.aux) ) 
 Here is how much of TeX's memory you used:
- 3206 strings out of 480236
- 50721 string characters out of 2879607
- 346863 words of memory out of 3000000
- 19730 multiletter control sequences out of 15000+200000
- 539689 words of font info for 44 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 60i,7n,66p,1228b,303s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Philani/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmbx10.pfb><C:/Users/Philani/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb><C:/Users/Philani/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Philani/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Philani/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Philani/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Phi
-lani/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/Users/Philani/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-12.pfb><C:/Users/Philani/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmr17.pfb><C:/Users/Philani/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr5.pfb><C:/Users/Philani/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Philani/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Philani/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Philani/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Report.pdf (7 pages, 196186 bytes).
+ 1203 strings out of 483183
+ 18199 string characters out of 5966292
+ 248566 words of memory out of 5000000
+ 16243 multiletter control sequences out of 15000+600000
+ 536939 words of font info for 39 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 30i,7n,25p,1269b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on /home/dinoanasta/Documents/Pseudo-ku/Latex/Report.pdf (7 pages, 187847 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

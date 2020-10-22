@@ -1,7 +1,16 @@
 \begin{thebibliography}{1}
 
+\bibitem{Sudoku:2020}
+Easybrain.
+\newblock {\em Sudoku.com}, 2020 (accessed 19 October 2020).
+
+\bibitem{GeeksforGeeks}
+GeeksforGeeks.
+\newblock {\em Sudoku | Backtracking-7 - GeeksforGeeks}, 2020 (accessed 15
+  October 2020).
+
 \bibitem{inproceedings}
 Sian Jones, Paul Roach, and Stephanie Perkins.
-\newblock {\em Sudoku Puzzle Complexity}, 03 2011.
+\newblock {\em Sudoku Puzzle Complexity}, 03 2011 (accessed 12 October 2020).
 
 \end{thebibliography}
