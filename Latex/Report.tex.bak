@@ -75,13 +75,11 @@ To measure the performance of our program we started off with the initial solved
   \caption{Iteration 2}\label{fig:awesome_image2}
 \endminipage\hfill
 \minipage{0.32\textwidth}%
-  \includegraphics[width=\linewidth]{iteration3.png}
+  \includegraphics[width=\linewidth]{iteration2.png}
   \caption{Iteration 3}\label{fig:awesome_image3}
 \endminipage
 \end{figure}
 
-
-As you can see, the puzzle in the first iteration has no white spaces as that is the solved puzzle. The puzzle in the second iteration has white spaces in positions (1,3), (4, 5) and (6,3). The puzzle in the third iteration has white spaces in positions (1,3), (4, 5), (6,3), (0,7), (3,1) and (8,8). Results of the performance of this implementation of the algorithm will be presented, interpreted and reviewed in subsequent sections.
 
 
 
