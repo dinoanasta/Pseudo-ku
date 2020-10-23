@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.7)  22 OCT 2020 22:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.7)  23 OCT 2020 11:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -40,39 +40,57 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
-) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/02/14 3.40 The Babel package
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/02/14 3.40 Babel switching mechanism
+)
+Package babel Info: You haven't specified a language. I'll use 'nil'
+(babel)             as the main language. Reported on input line 572.
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/nil.ldf
+Language: nil 2020/02/14 3.40 Nil language
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/02/14 3.40 Babel common definitions
+\babel@savecnt=\count175
+\U@D=\dimen137
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count176
+)
+\l@nil=\language3
+)) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count175
+\l__kernel_color_stack_int=\count177
 \l__pdf_internal_box=\box45
 ) (/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.aux)
 \openout1 = `Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count176
-\scratchdimen=\dimen137
+\scratchcounter=\count178
+\scratchdimen=\dimen138
 \scratchbox=\box46
-\nofMPsegments=\count177
-\nofMParguments=\count178
+\nofMPsegments=\count179
+\nofMParguments=\count180
 \everyMPshowfont=\toks15
-\MPscratchCnt=\count179
-\MPscratchDim=\dimen138
-\MPnumerator=\count180
-\makeMPintoPDFobject=\count181
+\MPscratchCnt=\count181
+\MPscratchDim=\dimen139
+\MPnumerator=\count182
+\makeMPintoPDFobject=\count183
 \everyMPtoPDFconversion=\toks16
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -81,103 +99,63 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 15.
+(Font)              <12> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 15.
+(Font)              <8> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 15.
+(Font)              <6> on input line 24.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
+(Font)              <7> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
+(Font)              <5> on input line 4.
 )
 \tf@toc=\write3
 \openout3 = `Report.toc'.
 
  [1]
-Underfull \hbox (badness 10000) in paragraph at lines 23--27
-
+Overfull \hbox (0.66737pt too wide) in paragraph at lines 41--42
+\OT1/cmr/m/n/10 Our initial assumption is that the Backtracking Algorithm will have the following
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--38
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 60--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--66
-
- []
-
-[3]
+[2] [3]
 <Images/iteration1.png, id=28, 111.41624pt x 121.20282pt>
 File: Images/iteration1.png Graphic file (type png)
 <use Images/iteration1.png>
-Package pdftex.def Info: Images/iteration1.png  used on input line 70.
+Package pdftex.def Info: Images/iteration1.png  used on input line 76.
 (pdftex.def)             Requested size: 110.40253pt x 120.10027pt.
 <Images/iteration2.png, id=29, 106.89937pt x 119.69719pt>
 File: Images/iteration2.png Graphic file (type png)
 <use Images/iteration2.png>
-Package pdftex.def Info: Images/iteration2.png  used on input line 74.
+Package pdftex.def Info: Images/iteration2.png  used on input line 80.
 (pdftex.def)             Requested size: 110.40253pt x 123.62004pt.
 <Images/iteration3.png, id=30, 109.1578pt x 121.20282pt>
 File: Images/iteration3.png Graphic file (type png)
 <use Images/iteration3.png>
-Package pdftex.def Info: Images/iteration3.png  used on input line 78.
+Package pdftex.def Info: Images/iteration3.png  used on input line 84.
 (pdftex.def)             Requested size: 110.40253pt x 122.58586pt.
  [4 </home/dinoanasta/Documents/Pseudo-ku/Latex/Images/iteration1.png> </home/dinoanasta/Documents/Pseudo-ku/Latex/Images/iteration2.png> </home/dinoanasta/Documents/Pseudo-ku/Latex/Images/iteration3.png>]
 <Images/COMP.pdf, id=34, 462.52798pt x 346.89601pt>
 File: Images/COMP.pdf Graphic file (type pdf)
 <use Images/COMP.pdf>
-Package pdftex.def Info: Images/COMP.pdf  used on input line 92.
+Package pdftex.def Info: Images/COMP.pdf  used on input line 98.
 (pdftex.def)             Requested size: 345.0pt x 258.76337pt.
- [5 </home/dinoanasta/Documents/Pseudo-ku/Latex/Images/COMP.pdf>] (/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.bbl) [6] (/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.aux) ) 
+ [5 </home/dinoanasta/Documents/Pseudo-ku/Latex/Images/COMP.pdf>] [6] [7] (/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.bbl) [8] (/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.aux) ) 
 Here is how much of TeX's memory you used:
- 1203 strings out of 483183
- 18199 string characters out of 5966292
- 248566 words of memory out of 5000000
- 16243 multiletter control sequences out of 15000+600000
+ 1797 strings out of 483183
+ 26405 string characters out of 5966292
+ 265792 words of memory out of 5000000
+ 16822 multiletter control sequences out of 15000+600000
  536939 words of font info for 39 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 30i,7n,25p,1269b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,7n,25p,1273b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /home/dinoanasta/Documents/Pseudo-ku/Latex/Report.pdf (7 pages, 187847 bytes).
+Output written on /home/dinoanasta/Documents/Pseudo-ku/Latex/Report.pdf (9 pages, 196245 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 129 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex Report"] 1603400106 "Report.aux" "Report.bbl" "Report" 1603400116
+["bibtex Report"] 1603444321 "Report.aux" "Report.bbl" "Report" 1603444403
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "Report.aux" 1603400107 2317 69b1b0cb02b1f483a7cfc3f887688652 "pdflatex"
+  "Report.aux" 1603444399 2362 2bde5a55c6d5a06599b56a6c0f4cb9fa "pdflatex"
   "file.bib" 1603400106 670 902d68abe54ab814fe5ee57f6302bb29 ""
   (generated)
   "Report.blg"
   "Report.bbl"
-["pdflatex"] 1603400106 "/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.tex" "/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.pdf" "Report" 1603400116
+["pdflatex"] 1603444399 "/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.tex" "/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.pdf" "Report" 1603444403
   "/etc/texmf/web2c/texmf.cnf" 1602104675 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.aux" 1603400107 2317 69b1b0cb02b1f483a7cfc3f887688652 ""
-  "/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.tex" 1603400115 7802 c44578e916a5c8d11fd84117db6c75e0 ""
+  "/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.aux" 1603444399 2362 2bde5a55c6d5a06599b56a6c0f4cb9fa ""
+  "/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.tex" 1603444403 12093 4ac7794645dd210151d0a25c8bbdc3ed ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -38,6 +38,11 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def" 1581719732 87344 ec128793fb5196bbcc1741e5366ddac1 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty" 1581719732 18844 909add1631725af40d27125357ea816e ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/nil.ldf" 1581719732 1591 197370f5581711a601a8e9ab39d284b1 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def" 1581719732 15529 e761dc130df77f0ce9717a25d1b52a95 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def" 1580769195 5220 42a6518b499d20676051f269c61f4d9a ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1580683321 20023 e427dd9e17e239bf926ef3aab67fe35e ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1580683321 8446 9874cccac5fee462272c582807dbbf56 ""
   "/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
@@ -57,14 +62,14 @@
   "Images/iteration1.png" 1603399446 17469 0d065a9ec1c5b493627fcf1929e9bf94 ""
   "Images/iteration2.png" 1603399446 3642 6830550576e15bc62bba1c441c8312ee ""
   "Images/iteration3.png" 1603399446 3693 53389a13afa86a6840d5d9412ceecadd ""
-  "Report.aux" 1603400107 2317 69b1b0cb02b1f483a7cfc3f887688652 "pdflatex"
-  "Report.bbl" 1603400106 427 3cbd558e8bb13d9582b632d81c738150 "bibtex Report"
-  "Report.tex" 1603400115 7802 c44578e916a5c8d11fd84117db6c75e0 ""
-  "Report.toc" 1603400107 905 9d8690639d3e52088b4ff8037a0c8cd5 "pdflatex"
+  "Report.aux" 1603444399 2362 2bde5a55c6d5a06599b56a6c0f4cb9fa "pdflatex"
+  "Report.bbl" 1603444321 427 3cbd558e8bb13d9582b632d81c738150 "bibtex Report"
+  "Report.tex" 1603444403 12093 4ac7794645dd210151d0a25c8bbdc3ed ""
+  "Report.toc" 1603444399 924 0c5ac3cf69a385308d33899d7f5bfbd9 "pdflatex"
   (generated)
+  "Report.pdf"
   "Report.log"
-  "Report.toc"
   "Report.aux"
   "/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.pdf"
-  "Report.pdf"
+  "Report.toc"
   "/home/dinoanasta/Documents/Pseudo-ku/Latex/Report.log"
