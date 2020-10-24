@@ -1,14 +1,14 @@
 \babel@toc {nil}{}
-\contentsline {section}{\numberline {1}Aims}{2}{}%
-\contentsline {section}{\numberline {2}Summary of Theory}{2}{}%
-\contentsline {subsection}{\numberline {2.1}Space Complexity : O($n^2$)}{2}{}%
-\contentsline {subsection}{\numberline {2.2}Time complexity: O$(9^{n^2})$}{2}{}%
-\contentsline {section}{\numberline {3}Experimental Methodology}{3}{}%
-\contentsline {subsection}{\numberline {3.1}Number of comparisons}{3}{}%
-\contentsline {subsection}{\numberline {3.2}Number of changes}{3}{}%
-\contentsline {subsection}{\numberline {3.3}Number of Recursive Calls}{3}{}%
-\contentsline {subsection}{\numberline {3.4}Run Time}{3}{}%
-\contentsline {section}{\numberline {4}Presentation of results}{5}{}%
-\contentsline {section}{\numberline {5}Interpretation of results}{7}{}%
-\contentsline {section}{\numberline {6}Theory relationship}{8}{}%
-\contentsline {section}{\numberline {7}Conclusion}{8}{}%
+\contentsline {section}{\numberline {1}Aims}{2}%
+\contentsline {section}{\numberline {2}Summary of Theory}{2}%
+\contentsline {subsection}{\numberline {2.1}Space Complexity : O($n^2$)}{2}%
+\contentsline {subsection}{\numberline {2.2}Time complexity: O$(9^{n^2})$}{2}%
+\contentsline {section}{\numberline {3}Experimental Methodology}{3}%
+\contentsline {subsection}{\numberline {3.1}Number of comparisons}{3}%
+\contentsline {subsection}{\numberline {3.2}Number of changes}{3}%
+\contentsline {subsection}{\numberline {3.3}Number of Recursive Calls}{3}%
+\contentsline {subsection}{\numberline {3.4}Run Time}{3}%
+\contentsline {section}{\numberline {4}Presentation of results}{6}%
+\contentsline {section}{\numberline {5}Interpretation of results}{9}%
+\contentsline {section}{\numberline {6}Theory relationship}{10}%
+\contentsline {section}{\numberline {7}Conclusion}{10}%

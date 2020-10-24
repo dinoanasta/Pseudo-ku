@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 public class Program {
-	static int[] counter = { 0, 0, 0 };
+	static int[] counter = { 0, 0, 0 }; //comparisons, changes, recursions
 	//static int[][] board = new int[9][9];
 
 	public static void main(String[] args) throws IOException {
@@ -302,7 +302,7 @@ public class Program {
 			File myObj = new File("COMPLETED_PUZZLES.txt");
 			Scanner myReader = new Scanner(myObj);
 			while (myReader.hasNextLine()) {
-				// Take in puzzles
+				// Take in puzzlesthat the value it has just compared has
 				int difc = Integer.parseInt(myReader.nextLine());
 				int[][] board = new int[9][9];
 
