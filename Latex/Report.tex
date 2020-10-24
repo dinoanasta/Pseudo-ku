@@ -53,16 +53,16 @@
     As stated in our aims, our initial assumption is that puzzles with more incomplete cells (or fewer clues) will result in more computation needed to find the unique solution. We have utilized 4 metrics to measure the performance of the algorithm, namely the number of comparisons, number of changes, number of recursive calls, and the amount of time taken to return a unique solution to a given puzzle. Please see below discussions on our chosen metrics:
 
     \subsection{Number of comparisons}
-    This metric measures the number of times the program compares the value of the current cell in the puzzle with the rest of the incomplete puzzle. At each iteration, the program checks that the current value does not break the puzzle (ie: it ensures that the value of the current cell is not repeated within that row, column or sub-grid.
+    This metric measures the number of times the program compares the value chosen for a current cell with another value on the board. The value is compared against every other value in the chosen cell's row, column, and 3-by-3 sub-grid, in order to determine if it safe to place in the cell.
 
     \subsection{Number of changes}
-    This metric measures the number of times the program determines that a specific value is safe to enter in the current cell and so changes its value from a zero (incomplete cell), to the determined number.
+    This metric measures the number of times the program determines that a specific value is safe to enter in the current cell and so changes its value from a zero (incomplete cell), to the determined number, or from a previosuly determined number to another "safe" number.
     
     \subsection{Number of Recursive Calls}
-    This metric measures the number of times the program is recursively called to find a unique solution to the given puzzle. Whenever the program finds a value that breaks the puzzle the Backtracking Algorithm gets called at that point and the program starts again from the beginning. The value that broke the puzzle will not be considered at this function call. This process is done to find a value for that position of the puzzle that doesn't break the rest of the puzzle.
+    This metric measures the number of times the program is recursively called to find a unique solution to the given puzzle. Whenever the program finds a value that is "safe" for a specific cell it updates the board and then calls the function again until the algorithm gets to a cell that has no "safe" value - at which point it will backtrack, change the number of a previosuly determined cell, and start recursevely calling the function again.
 
     \subsection{Run Time}   
-    This metric measures the length of time (in milliseconds) it takes for the program to output a unique solution to a given puzzle. 
+    This metric measures the length of time (in milliseconds) it takes for the program to solve a given puzzle. 
 
 
     It is our assumption that puzzles with more incomplete cells will need more comparisons, more changes, more recursive calls and a longer runtime than puzzles with less incomplete cells(more clues).\cite{{inproceedings}}
@@ -74,27 +74,27 @@
     Thirdly, it is very difficult to define a puzzle’s difficulty by a word rather than a scale of values as it is a concept that can be understood by a human, but it would be very abstract to a computer. 
     
     
-    We then realized it would be a better option to analyse our algorithm based on number of clues as a way to determine that puzzle’s difficulty. This approach proved to have flaws, as the positions of those clues could also be a factor to consider when defining difficulty. 
-    To measure the performance of our program we started off with the initial solved puzzle, ran our program on it and recorded and plotted the results. Then we randomly removed 3 clues from that puzzle and repeated that same process. This process was repeated until there were no more clues left in that puzzle (ie: the puzzle was left only with incomplete cells). This process made up our empirical experimentation. Below are some illustrations of the first three iterations of the algorithm performed on puzzle taken from Sudoku.com \cite{{Sudoku:2020}}
+    We then realized it would be a better option to analyse our algorithm based on number of clues as a way to determine that puzzle’s difficulty.  
+    To measure the performance of our program we started off with the initial solved puzzle, ran our program on it and recorded and plotted the results. Then we randomly removed 1 clue at time from that puzzle and tested the algorithm on it. This process was repeated until there were no more clues left in that puzzle (ie: the puzzle was left only with incomplete cells). We repeated this on multiple boards and averaged the results to get a more general set of results. This process made up our empirical experimentation. Below are some illustrations of a few of the iterations of the algorithm performed on puzzle taken from Sudoku.com \cite{{Sudoku:2020}}
 
 
     \begin{figure}[!htb]
     \minipage{0.32\textwidth}
       \includegraphics[width=\linewidth]{iteration1.png}
-      \caption{Iteration 1}\label{fig:awesome_image1}
+      \caption{Iteration 0}\label{fig:awesome_image1}
     \endminipage\hfill
     \minipage{0.32\textwidth}
       \includegraphics[width=\linewidth]{iteration2.png}
-      \caption{Iteration 2}\label{fig:awesome_image2}
+      \caption{Iteration 3}\label{fig:awesome_image2}
     \endminipage\hfill
     \minipage{0.32\textwidth}%
       \includegraphics[width=\linewidth]{iteration3.png}
-      \caption{Iteration 3}\label{fig:awesome_image3}
+      \caption{Iteration 6}\label{fig:awesome_image3}
     \endminipage
     \end{figure}
 
 
-    As you can see, the puzzle in the first iteration has no white spaces since it is the solved puzzle. The puzzle in the second iteration has white spaces in positions (1,3), (4, 5) and (6,3). The puzzle in the third iteration has white spaces in positions (1,3), (4,5), (6,3), (0,7), (3,1) and (8,8). Results of the performance of this implementation of the algorithm will be presented, interpreted and reviewed in subsequent sections.
+    As you can see, the puzzle in the first iteration has no white spaces since it is the solved puzzle. The puzzle in the third iteration has white spaces in positions (1,3), (4, 5) and (6,3). The puzzle in the sixth iteration has white spaces in positions (1,3), (4,5), (6,3), (0,7), (3,1) and (8,8). Results of the performance of this implementation of the algorithm will be presented, interpreted and reviewed in subsequent sections.
      
     % Presentation of results
     \pagebreak 
