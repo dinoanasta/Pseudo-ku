@@ -8,11 +8,11 @@ public class Program {
 	public static void main(String[] args) throws IOException {
 
 		//Run for submission purposes
-		// runForSubmission();
+		runForSubmission();
 
 		//Run for testing purposes
-		runForTestingNew();
-		compileResults();
+		// runForTestingNew();
+		// compileResults();
 	}
 
 	public static boolean isSafe(int[][] board, int row, int col, int num) {
