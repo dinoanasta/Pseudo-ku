@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {3.2}Number of changes}{3}{}%
 \contentsline {subsection}{\numberline {3.3}Number of Recursive Calls}{3}{}%
 \contentsline {subsection}{\numberline {3.4}Run Time}{3}{}%
-\contentsline {section}{\numberline {4}Presentation of results}{6}{}%
-\contentsline {section}{\numberline {5}Interpretation of results}{8}{}%
-\contentsline {section}{\numberline {6}Theory relationship}{9}{}%
-\contentsline {section}{\numberline {7}Conclusion}{9}{}%
+\contentsline {section}{\numberline {4}Presentation of results}{5}{}%
+\contentsline {section}{\numberline {5}Interpretation of results}{7}{}%
+\contentsline {section}{\numberline {6}Theory relationship}{8}{}%
+\contentsline {section}{\numberline {7}Conclusion}{8}{}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.22)  24 OCT 2020 20:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.22)  25 OCT 2020 18:10
 entering extended mode
 **./Report.tex
 (Report.tex
@@ -175,31 +175,31 @@ File: Images//iteration3.png Graphic file (type png)
 Package pdftex.def Info: Images//iteration3.png  used on input line 91.
 (pdftex.def)             Requested size: 110.40253pt x 122.58586pt.
 [4 <./Images//iteration1.png> <./Images//iteration2.png> <./Images//iteration3.
-png>] [5]
-<Images//Comparisons.png, id=36, 1204.5pt x 803.0pt>
+png>]
+<Images//Comparisons.png, id=33, 1204.5pt x 803.0pt>
 File: Images//Comparisons.png Graphic file (type png)
 <use Images//Comparisons.png>
 Package pdftex.def Info: Images//Comparisons.png  used on input line 104.
 (pdftex.def)             Requested size: 258.75pt x 172.4946pt.
-<Images//Changes.png, id=38, 1204.5pt x 803.0pt>
+<Images//Changes.png, id=35, 1204.5pt x 803.0pt>
 File: Images//Changes.png Graphic file (type png)
 <use Images//Changes.png>
 Package pdftex.def Info: Images//Changes.png  used on input line 110.
 (pdftex.def)             Requested size: 258.75pt x 172.4946pt.
-<Images//Recursions.png, id=39, 1204.5pt x 803.0pt>
+<Images//Recursions.png, id=36, 1204.5pt x 803.0pt>
 File: Images//Recursions.png Graphic file (type png)
 <use Images//Recursions.png>
 Package pdftex.def Info: Images//Recursions.png  used on input line 116.
 (pdftex.def)             Requested size: 258.75pt x 172.4946pt.
-<Images//Time.png, id=40, 1204.5pt x 803.0pt>
+<Images//Time.png, id=37, 1204.5pt x 803.0pt>
 File: Images//Time.png Graphic file (type png)
 <use Images//Time.png>
 Package pdftex.def Info: Images//Time.png  used on input line 122.
 (pdftex.def)             Requested size: 258.75pt x 172.4946pt.
- [6 <./Images//Comparisons.png> <./Images//Changes.png>] [7 <./Images//Recursio
-ns.png> <./Images//Time.png>] [8
+ [5 <./Images//Comparisons.png> <./Images//Changes.png>] [6 <./Images//Recursio
+ns.png> <./Images//Time.png>] [7
 
-] [9] (Report.bbl) [10] (Report.aux) ) 
+] [8] (Report.bbl) [9] (Report.aux) ) 
 Here is how much of TeX's memory you used:
  1987 strings out of 480236
  30087 string characters out of 2879607
@@ -208,26 +208,26 @@ Here is how much of TeX's memory you used:
  539689 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,7n,66p,772b,246s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Philani/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Philani/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Philani/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/User
-s/Philani/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.p
-fb><C:/Users/Philani/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmmi7.pfb><C:/Users/Philani/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmmi8.pfb><C:/Users/Philani/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb><C:/Users/Philani/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Philani/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Philani/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Philani
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/User
-s/Philani/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb
-><C:/Users/Philani/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr8.pfb><C:/Users/Philani/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmti10.pfb>
-Output written on Report.pdf (11 pages, 365459 bytes).
+<C:/Users/Philani/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Philani/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Philani/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users
+/Philani/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b><C:/Users/Philani/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmmi7.pfb><C:/Users/Philani/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb><C:/Users/Philani/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Users/Philani/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Philani/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Philani/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Philani/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users
+/Philani/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+<C:/Users/Philani/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr8.pfb><C:/Users/Philani/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmti10.pfb>
+Output written on Report.pdf (10 pages, 364686 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
+ 103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
